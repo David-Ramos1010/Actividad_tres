@@ -19,8 +19,46 @@
 		</div> 
 		-->
 
-		<footer>
-			<p style = "text-align: center; margin-top: 19px;"><em>© - David Efraín Jose Ramos - NL 19</em></p>
-		</footer>
+		<div class = "contenedor-formulario">
+			<h1>Convertidor de pesos mexicanos a Yenes Japoneses</h1>
+			<p class = "subtitulo">Asegurate que el campo de texto no este vacio y que el valor ingresado sea positivo.</p>
+			<form class = "formulario">
+
+				<div class = "grupo-doble">
+					<div class = "grupo-formulario">
+						<label for = "num1">Pesos mexicanos</label>
+						<input type = "number" id = "num1" step="any" placeholder = "Ej: 500">
+					</div>
+
+					<div class = "grupo-formulario">
+						<label for = "num2">Yenes japoneses <span>(No editable)</span></label>
+						<input type = "number" id = "num2" step = "any" readonly>				
+					</div>
+				</div>
+
+				<button type="button" id = "button1" class="open-modal" data-open="modal1">
+					CALCULAR ⇒
+				</button>
+
+				<div class="modal" id="modal1">
+					<div class="modal-dialog">
+						<header class="modal-header">
+							Convertidor $ ⇒ ¥
+							<button type = "button" id  = "button2" class="close-modal" aria-label="close modal" data-close>
+								✕
+							</button>
+						</header>
+						<section class="modal-content">
+							<img src = "img\emoticon.png" alt = "emoticon" width = "200">
+							<p>¿QUIERES CALCULARLO?</p>
+						</section>
+						<footer class="modal-footer">
+							 <button type="button" id = "button3" onclick="Convertir()">Calcular</button>
+							<p style = "text-align: center; margin-top: 19px;"><em>© - David Efraín José Ramos</em></p>
+						</footer>
+					</div>
+				</div>
+			</form>
+		</div>
 	</body>
 </html>
