@@ -1,10 +1,10 @@
 # Actividad tres - Mi segunda librería en JavaScript
 ## La librería se llama componente y mostrara un modal desde cero. 
+#### Elaborado por: David Efraín José Ramos NL 19
 Todo lo anterior se va a enlazar con un index y un login en GithubPages siguiendo la siguiente 
 estructura:
 ![Diseño de la estructura](img/estructura.png)
 ***
-#### Elaborado por: David Efraín José Ramos NL 19
 ## Problema que resuelvo
 La problemática que se resuelve con una ventana modal es multifuncional desde avisos hasta ejecutar un formulario completo. Como la ventana modal esta hecha en javascript su principal ventaja es que se puede reutilizar editando únicamente el html.
 ***
@@ -87,3 +87,4 @@ Aquí utilice una prueba experimental de cuanto finalice todas las funciones.
 ![Final](img/captura3.png)
 
 ### LINK DE VIDEO EN DRIVE
+https://drive.google.com/file/d/17FQO9YiJLIKcmm_lz800e_6ww8k6MjtX/view?usp=sharing
